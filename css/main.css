@@ -62,3 +62,7 @@ section h2{
 section button{
     margin: 0;
 }
+section ul{
+    list-style: none;
+    
+}

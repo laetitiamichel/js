@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
     //tableau:
     const tableau = ["HTML", "CSS", true]
     let noms = ["tom", "bb", true]
-    let noms_lang = [...tableau, ...noms] //spread opérateur = " ..." pour concaténer
+    let noms_lang = [...tableau, ...noms] //spread opérateur = " ..." pour concaténer / pour copier le tableau
     console.log(tableau.length) // length permet de compter tout le tableau
     //console.log([0])
     //console.table(tableau)
